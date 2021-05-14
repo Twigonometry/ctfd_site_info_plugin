@@ -1,7 +1,7 @@
 from flask import request, send_from_directory
 from CTFd.plugins import register_plugin_assets_directory
 def load(app):
-    base_path='plugins/site_info/assets/'
+    base_path='/plugins/ctfd_site_info_plugin/assets/'
     register_plugin_assets_directory(app,base_path=base_path)
     @app.route('/robots.txt')
     def robots():
