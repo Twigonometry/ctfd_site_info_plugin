@@ -1,5 +1,5 @@
 # site_info plugin
-A very simple CTFd plugin with the purpose of routing & serving robots.txt through the web app itself.
+~A very simple CTFd plugin with the purpose of routing & serving robots.txt through the web app itself.~ My sorry panicked attempt at making robots.txt available on CTFd. Didn't work and not sure why, but can't make the repo private because it's a fork, so enjoy
 
 ## Upload to Box
 
